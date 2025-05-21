@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" 
+            fetch="https://github.com/xiaomi-munch"
+            revision="fifteen"
+            clone-depth="1" />
+
+    <remote name="codeberg" 
+            fetch="https://codeberg.org/xiaomi-munch"
+            revision="fifteen"
+            clone-depth="1" />
+
+    <!-- device tree -->
+    <project remote="github" name="android_device_xiaomi_munch" path="device/xiaomi/munch" />
+    <!-- kernel tree -->
+    <project remote="github" name="android_kernel_xiaomi_munch" path="kernel/xiaomi/munch" />
+    <!-- vendor tree -->
+    <project remote="github" name="android_vendor_xiaomi_munch" path="vendor/xiaomi/munch" />
+    <!-- hardware -->
+    <project remote="github" name="android_hardware_xiaomi" path="hardware/xiaomi" />
+    <!-- miui camera -->
+    <project remote="codeberg" name="android_vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" />
+</manifest>
