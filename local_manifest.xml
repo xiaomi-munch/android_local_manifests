@@ -18,6 +18,7 @@
     <project remote="github" name="android_vendor_xiaomi_munch" path="vendor/xiaomi/munch" />
     <!-- hardware -->
     <project remote="github" name="android_hardware_xiaomi" path="hardware/xiaomi" />
+    <project remote="github" name="android_hardware_dolby" path="hardware/dolby" />
     <!-- miui camera -->
     <project remote="codeberg" name="android_vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" />
 </manifest>
